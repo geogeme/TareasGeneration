@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title> Consulta tu fecha laboral  </title>
+
+    <link rel="stylesheet" href="/styles/fechalaborable.css">        
+</head>
+
+<body>
+<div class="container-fondo"> </div>
+<header>
+  <h1 style="text-align: center; color: rgb(237, 100, 123); margin-bottom: 40px;"> Consulta tu fecha laborable </h1>
+
+    <div class="my1div col-xs-12 col-md-8″>.col-xs-12 col-md-8">
+         <label for="day" class="selectDay" style="text-align: center;"> Selecciona tu día </label>
+         <input class="selectDay" id="day" name="day"  type="number" min="1" max="31" style="text-align: center;"> <br>
+
+        <label for="month" class="selectMonth"> Selecciona tu mes </label>
+        <input id="month" name="month" type="number" min="1" max="12"> <br>
+
+        <label for="year" class="selectYear"> Selecciona tu año  </label>
+        <input id="year" name="year" type="number" min="1"> <br>
+    </div>
+</header>
+
+</body> 
+
+
+    <div class="my2div"  style="text-align: center;">
+        <button type="submit" class="btnSend" id="btnWeekDay"> Calcular </button>
+    </div>  
+
+    <div class="my3div col-xs-12 col-md-8" style="text-align: center;">
+        <label for="txtWeekDay"> Tu fecha es </label> <br>
+        <input type="text" id="txtWeekDay" value="">
+    </div> 
+ 
+    <script src="/JS/fechalaborable.js"></script> 
+
+</div>   
+
+</html>
