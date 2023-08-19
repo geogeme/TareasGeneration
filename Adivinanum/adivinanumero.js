@@ -1,5 +1,3 @@
-//Math.floor(Math.random() * 100) + 1;
-
 let btnEnviar= document.getElementById("btnEnviar");
 let txtResult = document.getElementById("txtResult");
 
@@ -33,23 +31,6 @@ function adivinarNumero() {
     }
   }
 
-/*function adivinarNumero(random, anterior) {
-  
-  let flag = "";
-
-    flag = prompt('Tu número es:' + random + " ? (Si/Mayor/Menor)").toLowerCase();
-
-    if(flag == "si"){
-        alert("Lo hemos logrado!");
-    }
-    else if (flag == "menor"){
-        adivinarNumero(Math.floor(Math.random() * (random - 1 + 1)) + 1);
-    }
-    else if (flag == "mayor"){
-        adivinarNumero(Math.floor(Math.random() * (100 - random + 1)) + random);
-    }
-}
-*/
 
 
 
