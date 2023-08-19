@@ -1,7 +1,7 @@
 body {
     background-image: url('fondo.jpg');
-    background-size: cover; /* Para ajustar la imagen al tamaño de la ventana */
-    background-repeat: no-repeat; /* Para evitar que la imagen se repita */
+    background-size: cover; 
+    background-repeat: no-repeat; 
 }
 
 
