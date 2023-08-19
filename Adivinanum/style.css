@@ -1,3 +1,10 @@
+body {
+    background-image: url('fondo.jpg');
+    background-size: cover; /* Para ajustar la imagen al tamaño de la ventana */
+    background-repeat: no-repeat; /* Para evitar que la imagen se repita */
+}
+
+
 .container{
     text-align: center;
     font-size: x-large;
