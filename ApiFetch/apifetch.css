@@ -1,0 +1,37 @@
+
+    .body {
+        background-color: aliceblue;
+    }
+
+    #tablaUsuarios {
+      border-collapse: collapse;
+      width: 100%;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+
+    #tablaUsuarios th, #tablaUsuarios td {
+      border: 1px solid #dddddd;
+      text-align: left;
+      padding: 8px;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+
+    #tablaUsuarios img {
+      border-radius: 50%;
+      width: 50px;
+      height: 50px;
+    }
+
+    .title {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    #cargarUsuarios {
+        background-color: rgb(102, 167, 243);
+        border-radius: 5px;
+        width: 80px;
+        height: 40px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-weight: bold;
+    }
